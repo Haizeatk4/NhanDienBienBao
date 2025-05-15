@@ -1,16 +1,14 @@
-B1: Cài đặt Visual Studio Code & Python
-
-BƯỚC 2: Tạo môi trường ảo (Virtual Environment)
+**Tạo môi trường ảo (Virtual Environment)**
     Trong thư mục dự án, mở terminal (trong VS Code hoặc CMD/PowerShell), chạy:
 python -m venv venv
 .\venv\Scripts\activate                           (kích hoạt môi trường)
-
+**Cài thư viện**
 pip install opencv-python
 pip install tensorflow
 pip install easyocr
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118  # nếu dùng GPU
 pip install gTTS
-    (Cài YOLOv5)
+**    (Cài YOLOv5)**
 git clone https://github.com/Duybeo2003/TrafficSigns.git
 cd TrafficSigns
 pip install -r requirements.txt
